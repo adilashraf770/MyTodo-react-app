@@ -1,0 +1,62 @@
+$buttonColor: #c9184a;
+// background: #00467F;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.login {
+    background: #00467F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5CC82, #00467F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .Login-title {
+        font-size: 55px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .btn-success {
+        border-radius: 30px;
+        font-weight: 400;
+    }
+
+    .forget-btn {
+        background: transparent;
+        border: 2px solid transparent;
+    }
+
+    .register {
+        color: #00467F;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+
+        }
+
+
+        &:focus {
+            text-decoration: none;
+        }
+    }
+
+    .forget {
+        color: #00467F;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+$primary: #073b4c;
+@import './sass/liberary';
+@import './sass/bootstrap';
+@import './sass/login';
+@import './sass/home';
+
+body {
+    #root {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+
+
+}
